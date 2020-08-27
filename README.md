@@ -8,14 +8,14 @@ The dataset is '.csv' file with all the mails of two categories (spam and not sp
 # Model
 This is an NLP(Natural Language processing task). The model that I made is a sequence model with LSTM cells:
 ![](Images/LSTM.png)
-Now if you look at the code I have used two layers of Bidirectional LSTM's. The parameters learned are Flattened using teh Flatten layer from keras API and is given as an input to a fully connected neural network:
+Now if you look at the code I have used two layers of Bidirectional LSTM's. The parameters learned are Flattened using the Flatten layer from keras API and is given as an input to a fully connected neural network:
 ![](Images/Neural%20Network.png)
 
 This is the model Architecture:
 ![](Images/Model.png)
 
 # Training and Testing 
-The model was build using teh Tensorflow framework. I trained the model for 15 EPOCHS. And each epoch took around 4 seconds to complete. I trained the model many times until I got the best model. The Spam Model directory contains of the saved model. Refer to tensorflow docs to see how to save and load a pretrained model (https://www.tensorflow.org/guide/keras/save_and_serialize). For this saved model i got a Training accuray of 1.000(100%) and Validation accuray of 0.8820(88.2%). 
+The model was build using the Tensorflow framework. I trained the model for 15 EPOCHS. And each epoch took around 4 seconds to complete. I trained the model many times until I got the best model. The Spam Model directory contains of the saved model. Refer to tensorflow docs to see how to save and load a pretrained model (https://www.tensorflow.org/guide/keras/save_and_serialize). For this saved model i got a Training accuray of 1.000(100%) and Validation accuray of 0.8820(88.2%). 
 
 # Graphs
 The accuracy Graph:
