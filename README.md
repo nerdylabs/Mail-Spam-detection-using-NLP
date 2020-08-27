@@ -29,4 +29,9 @@ The Loss Graph:
 
 ![](Images/loss.png)
 
-As you can see the training loss smoothly decreases and the validation loss shoots up but then decreases again which is fine. I don't know why did that sudden increase take place
+As you can see the training loss smoothly decreases and the validation loss shoots up but then decreases again which is fine. I don't know why did that sudden increase took place, but I guess it's fine.
+
+# Testing on custom message 
+
+now I tested on my custom messge "Get 100% off for this random thing that you won in a lottery!!!!!".
+Now this message surely is a spam and it predicts spam as well
