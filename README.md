@@ -33,5 +33,5 @@ As you can see the training loss smoothly decreases and the validation loss shoo
 
 # Testing on custom message 
 
-now I tested on my custom messge "Get 100% off for this random thing that you won in a lottery!!!!!".
+Now I tested on my custom messge "Get 100% off for this random thing that you won in a lottery!!!!!".
 Now this message surely is a spam and it predicts spam as well
