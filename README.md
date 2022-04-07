@@ -35,3 +35,6 @@ As you can see the training loss smoothly decreases and the validation loss shoo
 
 Now I tested on my custom messge "Get 100% off for this random thing that you won in a lottery!!!!!".
 Now this message surely is a spam and it predicts spam as well
+
+# Learn more:
+I have written an [article](https://levelup.gitconnected.com/build-a-mail-spam-classifier-using-tensorflow-and-keras-9bc687d2a1d3) on medium explaining the steps to build this classifier do give it a read
